@@ -13,7 +13,8 @@ while True:
 	print("Please enter your requirement else exit to end from my tools: ", end='')
 	
 	pyttsx3.speak("Please enter your requirement else exit to end from my tools")
-	p=input()
+	x = input()
+	p = x.lower()
 
 	if ( "don't" in p or "dont" in p or ("do" in p and "not" in p )):
 		print(" Ok, will not do that ")
